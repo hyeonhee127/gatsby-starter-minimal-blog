@@ -20,15 +20,19 @@ module.exports = {
             title: `About`,
             slug: `/about`,
           },
+          {
+            title: `About2`,
+            slug: `/about2`,
+          },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Facebook`,
+            url: `https://www.facebook.com/hyeonhee127`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `Linkedin`,
+            url: `https://www.linkedin.com/in/hyeonheepark/`,
           },
         ],
       },
