@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `Lupin`,
+    siteTitle: `Home`,
     siteLanguage: `en`,
     siteTitleAlt: `Minimal Blog - Gatsby Theme`,
   },
