@@ -21,7 +21,7 @@ const Footer = () => {
       }}
     >
       <div>
-        &copy; {new Date().getFullYear()} by {siteTitle}. All rights reserved.
+        &copy; {new Date().getFullYear()} by {Hyeonhee Park}. All rights reserved.
       </div>
       <div>
         <Link
