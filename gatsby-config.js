@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `HHP Blog`,
+    siteTitle: `HHome`,
     siteLanguage: `en`,
     siteTitleAlt: `Hyeonhee Park Blog`,
     siteUrl: `https://hyeonheepark.netlify.app`,
