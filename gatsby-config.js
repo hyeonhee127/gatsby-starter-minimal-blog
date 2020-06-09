@@ -7,6 +7,10 @@ module.exports = {
     siteTitle: `Home`,
     siteLanguage: `en`,
     siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    sitemap: 'Hi',
+    siteMetadata: '.',
+    footer:  '.',
+
     
   },
   plugins: [
