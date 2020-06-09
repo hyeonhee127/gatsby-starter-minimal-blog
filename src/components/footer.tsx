@@ -34,7 +34,7 @@ const Footer = () => {
         by
         {` `}
         <Link aria-label="Link to the theme author's website" href="https://www.lekoarts.de/en">
-          HyeonheePark
+          LekoArts
         </Link>
       </div>
     </footer>
