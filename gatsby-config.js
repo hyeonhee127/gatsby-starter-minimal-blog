@@ -8,9 +8,7 @@ module.exports = {
     siteLanguage: `en`,
     siteTitleAlt: `Hyeonhee Park Blog`,
     sitemap: 'Hi',
-    siteMetadata: '.',
     siteHeadline: `HHHH`,
-    footer:  '.',
     siteUrl: `https://hyeonheepark.netlify.app`,
     author: `@HyeonheePark`
   },
@@ -34,15 +32,7 @@ module.exports = {
             slug: `/about2`,
           },
         ],
-        footer: [ 
-          {
-
-
-
-          }    
-
-
-        ],
+        
 
         
 
@@ -94,45 +84,3 @@ module.exports = {
   ],
 }
 
-
-
-const Footer = () => {
-  const { siteTitle } = useSiteMetadata()
-
-  return (
-    <footer
-      sx={{
-        boxSizing: `border-box`,
-        display: `flex`,
-        justifyContent: `space-between`,
-        mt: [6],
-        color: `secondary`,
-        a: {
-          variant: `links.secondary`,
-        },
-        flexDirection: [`column`, `column`, `row`],
-        variant: `dividers.top`,
-      }}
-    >
-      <div>
-        &copy; {new Date().getFullYear()} by 'HH'. All rights reserved.
-      </div>
-      <div>
-        <Link
-          aria-label="Link to the theme's GitHub repository"
-          href="https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog"
-        >
-          Theme
-        </Link>
-        {` `}
-        by
-        {` `}
-        <Link aria-label="Link to the theme author's website" href="https://www.lekoarts.de/en">
-          HH
-        </Link>
-      </div>
-    </footer>
-  )
-}
-
-export default Footer
