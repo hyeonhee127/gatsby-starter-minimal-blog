@@ -31,6 +31,11 @@ module.exports = {
             title: `Game`,
             slug: `/about2`,
           },
+          {
+            title: `foot`,
+            slug: `/footer`,
+          },
+
         ],
         
 
