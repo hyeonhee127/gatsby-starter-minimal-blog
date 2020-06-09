@@ -6,11 +6,13 @@ module.exports = {
   siteMetadata: {
     siteTitle: `Home`,
     siteLanguage: `en`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitleAlt: `Hyeonhee Park Blog`,
     sitemap: 'Hi',
     siteMetadata: '.',
+    siteHeadline: `HHHH`,
     footer:  '.',
-
+    siteUrl: `https://hyeonheepark.netlify.app`,
+    author: `@HyeonheePark`
     
   },
   plugins: [
@@ -18,6 +20,7 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
+        showLineNumbers: false,
         navigation: [
           {
             title: `Blog`,
@@ -32,6 +35,18 @@ module.exports = {
             slug: `/about2`,
           },
         ],
+        footer: [ 
+          {
+
+
+
+          }    
+
+
+        ],
+
+        
+
         externalLinks: [
           {
             name: `Facebook`,
