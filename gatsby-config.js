@@ -19,7 +19,7 @@ module.exports = {
         navigation: [
           {
             title: `Blog`,
-            slug: `/blog`,
+            slug: `/Blog`,
           },
           {
             title: `Sound`,
