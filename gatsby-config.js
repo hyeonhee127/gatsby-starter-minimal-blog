@@ -26,14 +26,18 @@ module.exports = {
             slug: `/sound`,
           },
           {
+            title: `Music`,
+            slug: `/music`,
+          },
+          {
             title: `Game`,
             slug: `/game`,
           },
           {
-            title: `Music`,
-            slug: `/music`,
+            title: `Photo`,
+            slug: `/photo`,
           },
-        
+          
        ],      
 
         externalLinks: [
