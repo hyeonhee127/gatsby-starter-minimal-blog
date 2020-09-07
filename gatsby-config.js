@@ -4,10 +4,10 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `HHHome`,
+    siteTitle: `HH Log`,
     siteLanguage: `en`,
-    siteTitleAlt: `Hyeonhee Park Blog`,
-    siteUrl: `https://hyeonheepark.netlify.app`,
+    siteTitleAlt: `HH Log`,
+    siteUrl: `https://hhlog.netlify.app`,
 
   },
   plugins: [
@@ -19,22 +19,22 @@ module.exports = {
         navigation: [
           {
             title: `Blog`,
-            slug: `/Blog`,
+            slug: `/blog`,
           },
           {
             title: `Sound`,
-            slug: `/Sound`,
+            slug: `/sound`,
           },
           {
             title: `Game`,
-            slug: `/Game`,
+            slug: `/game`,
           },
           {
             title: `Music`,
-            slug: `/Music`,
+            slug: `/music`,
           },
-
-        ],      
+        
+       ],      
 
         externalLinks: [
           {
